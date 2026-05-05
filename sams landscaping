@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sam's Landscaping</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6') no-repeat center/cover;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    nav {
+      background: #2e7d32;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services ul {
+      columns: 2;
+    }
+    .reviews {
+      background: #f4f4f4;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .review {
+      margin-bottom: 15px;
+    }
+    .cta {
+      background: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .cta button {
+      background: white;
+      color: #2e7d32;
+      border: none;
+      padding: 15px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Sam's Landscaping</h1>
+  <p>Family-Owned • 16+ Years Experience • Free In-Home Estimates</p>
+  <p>Serving Riverton & Surrounding Areas</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#reviews">Reviews</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    Sam's Landscaping is a family-owned and operated business with over 16 years of experience.
+    We specialize in creating beautiful, functional outdoor spaces with a focus on quality, honesty,
+    and customer satisfaction. Fully verified and background-checked, we bring peace of mind along
+    with expert craftsmanship.
+  </p>
+</section>
+
+<section id="services" class="services">
+  <h2>Our Services</h2>
+  <ul>
+    <li>Artificial Turf Installation</li>
+    <li>Concrete & Stone Masonry</li>
+    <li>Driveway Landscaping</li>
+    <li>Grading & Resloping</li>
+    <li>Hardscapes</li>
+    <li>Landscape Design</li>
+    <li>Outdoor Steps</li>
+    <li>Water Features</li>
+    <li>Walkways & Paving</li>
+    <li>Retaining Walls</li>
+    <li>Walkway Landscaping</li>
+  </ul>
+</section>
+
+<section id="reviews">
+  <h2>Customer Reviews</h2>
+  <div class="reviews">
+    <p><strong>⭐ 4.7 Rating (13 Reviews)</strong></p>
+    
+    <div class="review">
+      “They made sure to explain how to adjust sprinklers and care for the new grass.”
+    </div>
+    <div class="review">
+      “Sam did the landscaping for my backyard and did a tremendous job.”
+    </div>
+    <div class="review">
+      “Fast, dependable, extremely fair price and nicest people EVER!”
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="cta">
+  <h2>Get Your Free Estimate</h2>
+  <p>Call us today or schedule your in-home consultation.</p>
+  <p><strong>(801) 903-1075</strong></p>
+  <button onclick="window.location.href='tel:18019031075'">Call Now</button>
+</section>
+
+<footer>
+  <p>&copy; 2026 Sam's Landscaping | Opens 7 AM Tue</p>
+</footer>
+
+</body>
+</html>
